@@ -2,5 +2,22 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
+
+## What is コミアカ？
+
+コミックアカデミー（コミアカ、CA）とは、東大生による同人誌即売会です。
+五月祭・駒場祭での年2回開催で、2019年の駒場祭で第19回となります。
+
+- コミックアカデミーについてはこちら！
+
+## 新しい仲間を募集中！
+
+新歓ページはこちら！
+
+## お知らせ
+
+<div class="redbox">
+<a href="covid19_20201024.html">2020年秋におけるオンライン企画の開催等について（同人誌即売会「コミックアカデミー」開催見通しについて・第4報）</a>(2020年10月24日)
+</div>
