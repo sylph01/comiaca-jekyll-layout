@@ -1,45 +1,13 @@
 <!-- topics -->
 
 <h3>トピックス</h3>
-<br>
-2021/03/19:
-<br> <strong><a href="shinkan2021.html">新歓情報のページ</a></strong>を公開しました！<br>
-<br>
-2020/11/20:
-<br> <a href="/ca2020autumn/"><strong>オンライン企画「コミックアカデミー2020秋」特設ページ</strong></a>を公開！<br>
-<br>
-2020/10/24:
-<br> <a href="/goudoushi_2020autumn.html"><strong>「コミックアカデミー合同誌2020秋」参加の募集</strong>について</a>公開しました。<br>
-<br>
-2020/05/14:
-<br> <a href="/goudoushi_2020spring.html"><strong>「コミックアカデミー合同誌2020春」参加の募集</strong>について</a>公開しました。<br>
-<br>
-2020/05/01:
-<br> <strong><a href="/ca20_covid19_20200501.html">同人誌即売会「コミックアカデミー20」の開催見通しについて（第2報）・2020年5月「コミアカ合同誌」発行のお知らせ・2020年5月オンライン企画開催のお知らせ</a></strong>を公開しました。<br>
-<br>
-2020/04/12:
-<br> <strong><a href="/shinkan2020_circles/">同人創作系サークル紹介ページ</a></strong>を公開しました！<br>
-<br>
-2020/03/24:
-<br> <strong><a href="shinkan2020.html">新歓情報のページ</a></strong>を公開しました！<br>
-<br>
-2019/10/22:
-<br> コミアカ19 <strong><a href="catalog19.html">参加サークルリスト</a></strong>を公開しました！<br> 　　　
-<br>
 
-									2019/10/01:
-									<br> コミアカ19 <span style="color: #ff3333"><strong><a href="join.html">サークル参加</a></strong></span>、<span style="color: #ff3333"><strong><a href="itaku.html">委託参加</a></strong></span>、<span style="color: #ff3333"><strong><a href="goudoushi.html">合同誌参加</a></strong></span>の募集について公開しました。
-<br>サークル参加申込〆切は<strike>10/14</strike> <strong>10/17</strong>(延長しました)です！<br> 　　　
-									<br>
-2019/04/27:
-<br> コミアカ18 <strong><a href="catalog18.html">参加サークルリスト</a></strong>を公開しました！<br> 　　　
-<br>
-2019/04/02:
-<br> コミアカ18 <span style="color: #ff3333"><strong><a href="join.html">サークル参加</a></strong></span>、<span style="color: #ff3333"><strong><a href="itaku.html">委託参加</a></strong></span>、<span style="color: #ff3333"><strong><a href="goudoushi.html">合同誌参加</a></strong></span>の募集について公開しました。
-<br>サークル参加申込〆切は<del>4/17</del><strong>4/20</strong><small>（延長しました）</small>です！<br> 　　　
-<br>
-2019/03/28:
-<br> <strong><a href="shinkan2019.html">新歓情報のページ</a></strong>を公開しました！<br>
+{% for post in site.posts %}
+  <p>
+		{{ post.date | date: "%Y/%m/%d"}}:<br />
+		<strong><a href="{{post.url}}">{{ post.title }}</a></strong> を公開しました！
+	</p>
+{% endfor %}
 
 <!-- stuff included from header.html -->
 
