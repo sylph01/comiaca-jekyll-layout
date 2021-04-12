@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>{{ page.title }}</title>
+    {% include meta.html %}
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <link rel="stylesheet" href="style-ie.css" type="text/css">
+    <![endif]-->
+</head>
+<body>
+	<header id="page">
+		<h1>
+		<a href="index.html">
+		<img src="img/logo_s.png" alt="logo">
+		</a>
+		</h1>
+		<nav>
+		<a href="/system/">&gt; 参加申し込みシステム</a><br />
+		<span class="nav_hint">(同サイト内の別ページにアクセスします)</span>
+		</nav>
+	</header>
+
+	<div id="container">
+		<!-- sidebar -->
+		<section id="sidebar">
+            {% include sidebar.html %}
+        </section>
+        
+		<!-- main content -->
+		<section id="main">
+			{{ content }}
+        </section>
+	</div>
+
+    <footer id="page">
+		(c) 2010 - {{ site.time | date: "%Y" }} コミックアカデミー実行委員会
+    </footer>
+</body>
+</html>
