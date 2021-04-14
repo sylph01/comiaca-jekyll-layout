@@ -303,6 +303,11 @@ ul.history-orientation li {
 	-webkit-border-radius: 7px;
 }
 
+.big-red{
+	color: red;
+	font-size: 14pt;
+}
+
 /*-----------------------------------------------
  videogallery
 -----------------------------------------------*/
