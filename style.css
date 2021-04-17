@@ -308,6 +308,11 @@ ul.history-orientation li {
 	font-size: 14pt;
 }
 
+.red-bold{
+	color: red;
+	font-weight: bold;
+}
+
 /*-----------------------------------------------
  videogallery
 -----------------------------------------------*/
@@ -348,4 +353,9 @@ img{
 	  max-width and max-height allows img to fit inside parent div.
 		see: https://www.tutorialrepublic.com/faq/how-to-auto-resize-an-image-to-fit-into-a-div-container-using-css.php#:~:text=Answer%3A%20Use%20the%20CSS%20max,while%20maintaining%20its%20aspect%20ratio.
 	*/
+}
+
+.img-right{
+	float: right;
+	margin-left: 10px;
 }
